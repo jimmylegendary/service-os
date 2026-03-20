@@ -5,7 +5,7 @@ create table public.tasks (
   slug text unique,
   title text not null,
   description text,
-  task_type text not null check (task_type in ('research','decision','design','implementation','review','setup','deploy','meta')),
+  task_type text not null check (task_type in ('research','decision','design','implementation','review','debugging','bugfix','verification','setup','deploy','meta')),
   priority text not null default 'normal' check (priority in ('low','normal','high','critical')),
   status text not null default 'queued' check (status in ('queued','ready','in_progress','self_review','blocked','needs_human_input','waiting_external','done','cancelled','archived')),
   owner_type text not null check (owner_type in ('openclaw','coding_agent','human','automation')),

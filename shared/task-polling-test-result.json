@@ -1,0 +1,95 @@
+[
+  {
+    "event": "queue_count",
+    "remaining": 1,
+    "queue": [
+      {
+        "slug": "poll-test-root-review",
+        "status": "queued",
+        "leased_by": null
+      }
+    ],
+    "tasks": [
+      {
+        "slug": "poll-test-root-review",
+        "status": "ready"
+      },
+      {
+        "slug": "poll-test-child-design",
+        "status": "ready"
+      }
+    ]
+  },
+  {
+    "event": "leased",
+    "task": {
+      "queue_id": "79e94795-746e-4ac7-8e0b-fa0c47485d51",
+      "task_id": "6e91424d-8562-425d-9701-690a7417fdba",
+      "slug": "poll-test-root-review",
+      "title": "Poll test root review",
+      "priority": "critical",
+      "task_status": "in_progress",
+      "owner_type": "openclaw",
+      "current_brief": "Root task for polling test"
+    }
+  },
+  {
+    "event": "completed",
+    "task_id": "6e91424d-8562-425d-9701-690a7417fdba",
+    "slug": "poll-test-root-review"
+  },
+  {
+    "event": "queue_count",
+    "remaining": 1,
+    "queue": [
+      {
+        "slug": "poll-test-child-design",
+        "status": "queued",
+        "leased_by": null
+      }
+    ],
+    "tasks": [
+      {
+        "slug": "poll-test-child-design",
+        "status": "ready"
+      },
+      {
+        "slug": "poll-test-root-review",
+        "status": "done"
+      }
+    ]
+  },
+  {
+    "event": "leased",
+    "task": {
+      "queue_id": "e4c343fc-54dc-4f63-aa8e-f96e178d9a3f",
+      "task_id": "eead2446-836b-44b5-9f21-c502ae105631",
+      "slug": "poll-test-child-design",
+      "title": "Poll test child design",
+      "priority": "high",
+      "task_status": "in_progress",
+      "owner_type": "openclaw",
+      "current_brief": "Child task for polling test"
+    }
+  },
+  {
+    "event": "completed",
+    "task_id": "eead2446-836b-44b5-9f21-c502ae105631",
+    "slug": "poll-test-child-design"
+  },
+  {
+    "event": "queue_count",
+    "remaining": 0,
+    "queue": [],
+    "tasks": [
+      {
+        "slug": "poll-test-root-review",
+        "status": "done"
+      },
+      {
+        "slug": "poll-test-child-design",
+        "status": "done"
+      }
+    ]
+  }
+]
