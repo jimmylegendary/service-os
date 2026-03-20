@@ -22,8 +22,9 @@ Prove that the product can help a user arrive at a calmer, smaller, more actiona
    - unfinished work should not silently disappear
    - it should be intentionally re-surfaced later
 
-6. **Minimum social/task exchange capability**
-   - enough support for assign / observer semantics to preserve the product’s future direction
+6. **Optional minimum exchange placeholder only**
+   - if included at all, restrict to: assign one item to one other user + optional observer
+   - no teams, no comments, no workspaces, no social layer
 
 ## Should exclude from MVP
 
@@ -34,6 +35,10 @@ Prove that the product can help a user arrive at a calmer, smaller, more actiona
 - rich customization systems
 - broad autonomous AI behavior
 - overbuilt recurrence and planning tools
+- tags as an organization system
+- priority matrices
+- calendar grid views
+- team workspace model
 
 ## MVP validation questions
 

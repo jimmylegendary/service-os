@@ -48,6 +48,19 @@ This repo should support a repeating loop:
 6. relevant files under `services/<service>/`
 7. relevant files under `DECISIONS/`
 
+## Document contract
+
+- `PRINCIPLES.md` = enduring truths and product/build philosophy
+- `PORTFOLIO.md` = portfolio state, strategic ordering, and why-now logic
+- `WORKFLOW.md` = repo operating loop, handoff protocol, and self-review loop
+- `operating-system/*.md` = reusable conceptual methods
+- `services/<name>/service.md` = service thesis, anti-thesis, and current product hypothesis
+- `services/<name>/mvp.md` = current narrow build boundary and validation target
+- `services/<name>/architecture.md` = structural model, not a feature wishlist
+- `DECISIONS/` = durable decisions with consequences
+- `experiments/` = hypothesis tests and learning records
+- `templates/` = reusable scaffolds for repeatable execution
+
 ## Top-level structure
 
 - `AGENTS.md` — agent operating rules for this repo

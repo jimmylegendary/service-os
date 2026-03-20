@@ -12,12 +12,18 @@ Today It exists to reduce the cost of answering:
 - what should stay out of sight because it is not useful in the present?
 
 ## Product philosophy
+Today It is not about planning the day.
+It is about curating the smallest trustworthy execution surface for right now.
+
+Core stance:
+- capture is cheap
+- acceptance is intentional
+- visibility is earned
+
 Today It is:
 - today-first
 - action-first
 - cognitive-unload-first
-- compatible with delegation and observation
-- eventually compatible with human-AI task exchange
 
 Today It is not:
 - a generic backlog manager
@@ -25,21 +31,24 @@ Today It is not:
 - a calendar replacement
 - a productivity dashboard for storing everything forever
 
+## Current product hypothesis
+If the system separates raw incoming/captured items from consciously accepted-today items, users will feel calmer and act more easily because they no longer need to continuously manage their whole backlog in working memory.
+
 ## Structural insight inherited from MissionAmongUs
 The strongest reusable pattern is:
 - incoming / captured items are separate from accepted-now items
 - acceptance is a state change
 - not everything visible is active
 
-So Today It should likely preserve a distinction between:
-- capture / inbox / incoming
+So Today It should preserve a distinction between:
+- capture / inbox
 - accepted into today's execution surface
 
-## Hidden long-term direction
-Today It may evolve into a human-AI coordination layer where:
+## Deferred future direction
+Later, Today It may evolve toward a human-AI coordination layer where:
 - humans assign tasks to AI
 - AI assigns tasks to humans
 - observers can follow work
 - APIs / MCP can move tasks in and out of the system
 
-This is a long-term direction, not necessarily an MVP requirement.
+This is intentionally deferred and should not justify MVP complexity.

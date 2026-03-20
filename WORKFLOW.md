@@ -60,14 +60,26 @@ Every bounded implementation task should include:
 ### Implementation layer
 - define one bounded build step
 - assign to coding agent
-- review output
+- perform self review
 - decide keep / revise / discard
 
 ### Learning layer
+- capture hypothesis tested
 - capture what worked
 - capture what drifted
 - capture what pattern is reusable
 - promote reusable work patterns toward future skills
+
+## Self review format
+
+Use `templates/self-review.md`.
+Minimum review questions:
+- What was the objective?
+- What changed?
+- What philosophy risk exists?
+- What MVP boundary risk exists?
+- What feels overbuilt?
+- What is unresolved but intentionally deferred?
 
 ## Escalation rules
 

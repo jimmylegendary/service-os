@@ -1,19 +1,23 @@
 # Today It — Early Architecture Notes
 
-## Core state model
+## Canonical product loop
 
-Potential high-level task states:
+Capture -> Review/Accept -> Today -> Done / Snooze / Waiting -> Resurface
+
+## MVP-visible states
 - captured
-- incoming
 - accepted_today
 - done
-- deferred
+- snoozed
+- waiting
+
+## Future-compatible states / modes
+- incoming
 - resurfaced
 - delegated
 - observing
-- waiting
 
-Not all of these need to appear in the first UI, but the system should be designed so they can exist.
+These should not force MVP over-modeling.
 
 ## Core surfaces
 
@@ -30,6 +34,11 @@ Useful as a constrained preview, but should not become a wide future planner.
 ## Important rule
 Dates may exist internally, but should not dominate the product experience.
 Time metadata is secondary to present relevance.
+
+For MVP, date handling should stay narrow:
+- enough to support today / tomorrow / day-after preview
+- enough to support snooze/resurface behavior
+- not enough to turn the product into a scheduler-first system
 
 ## Future-compatible extension points
 - assign to another human
