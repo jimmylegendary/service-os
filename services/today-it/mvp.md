@@ -3,6 +3,10 @@
 ## MVP goal
 Prove that the product can help a user arrive at a calmer, smaller, more actionable “today” than they would create alone.
 
+## MVP scope
+This is a single-user-first, mobile-first MVP.
+The first implementation target is Flutter.
+
 ## Must include
 
 1. **Today surface**
