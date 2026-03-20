@@ -44,6 +44,8 @@ So Today It should preserve a distinction between:
 - capture / inbox
 - accepted into today's execution surface
 
+See also: `missionamongus-analysis.md`
+
 ## Deferred future direction
 Later, Today It may evolve toward a human-AI coordination layer where:
 - humans assign tasks to AI

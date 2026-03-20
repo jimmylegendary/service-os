@@ -47,3 +47,6 @@ Prove that the product can help a user arrive at a calmer, smaller, more actiona
 - Does the inbox/capture to today transition feel meaningful?
 - Do unfinished items feel managed without creating guilt or list anxiety?
 - Is the product clearly different from a generic todo app?
+
+## Current hypothesis under test
+If users can keep capture/incoming separate from consciously accepted-today work, they will feel less overwhelmed and trust the Today surface more than a conventional backlog-driven todo app.
