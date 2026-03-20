@@ -18,13 +18,15 @@ Prove that the product can help a user arrive at a calmer, smaller, more actiona
    - captured / incoming items are not automatically active
    - users consciously move items into active today execution
 
-5. **Completion / defer / re-surface loop**
+5. **Completion / snooze / waiting / re-surface loop**
+   - `done` means complete and removed from active surface
+   - `snooze` means hidden until the next narrow reappearance moment
+   - `waiting` means blocked by someone/something else and not treated as active now-work
    - unfinished work should not silently disappear
    - it should be intentionally re-surfaced later
 
-6. **Optional minimum exchange placeholder only**
-   - if included at all, restrict to: assign one item to one other user + optional observer
-   - no teams, no comments, no workspaces, no social layer
+6. **No broad exchange model in MVP**
+   - assign / observer should be treated as future-compatible direction, not a mandatory MVP requirement
 
 ## Should exclude from MVP
 
@@ -50,3 +52,4 @@ Prove that the product can help a user arrive at a calmer, smaller, more actiona
 
 ## Current hypothesis under test
 If users can keep capture/incoming separate from consciously accepted-today work, they will feel less overwhelmed and trust the Today surface more than a conventional backlog-driven todo app.
+d and trust the Today surface more than a conventional backlog-driven todo app.

@@ -22,14 +22,17 @@ These should not force MVP over-modeling.
 ## Core surfaces
 
 ### 1. Today
-The primary execution surface.
+The primary trusted execution surface.
 This is the product center.
+Only items accepted for present execution belong here.
 
 ### 2. Capture / Inbox
 Where raw or incoming items land before they become active today work.
+This protects Today from backlog contamination.
 
 ### 3. Tomorrow / Day-after
 Useful as a constrained preview, but should not become a wide future planner.
+This is a lightweight preview only, not a planning workspace.
 
 ## Important rule
 Dates may exist internally, but should not dominate the product experience.
